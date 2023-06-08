@@ -89,6 +89,14 @@
   margin-right: 1rem;
 }
 
+#contents {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+#contents .card {
+  margin: 1rem;
+}
 /* Content Project */
 /* #result-blog {
   background-color: #fff;
